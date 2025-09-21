@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "VolleyLineUp",
+    "slug": "VolleyLineUp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.adriest.VolleyLineUp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ab143f25-2516-4f9b-bacd-d4099a7bf1b6"
+      }
+    },
+    "plugins": [
+      "expo-barcode-scanner",
+      "expo-font"
+    ]
+  }
+}
